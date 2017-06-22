@@ -24,6 +24,12 @@
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
 		E9D34FC2E04FFDED0050A371 /* Pods_wxxPresent_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B13B3C80ED778EFE62799823 /* Pods_wxxPresent_Example.framework */; };
+		EDF5AB531EFBB0B5000C0CFF /* A_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF5AB4E1EFBB0B5000C0CFF /* A_ViewController.m */; };
+		EDF5AB541EFBB0B5000C0CFF /* A_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF5AB4F1EFBB0B5000C0CFF /* A_ViewController.xib */; };
+		EDF5AB551EFBB0B5000C0CFF /* B_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF5AB511EFBB0B5000C0CFF /* B_ViewController.m */; };
+		EDF5AB561EFBB0B5000C0CFF /* B_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF5AB521EFBB0B5000C0CFF /* B_ViewController.xib */; };
+		EDF5AB5A1EFBB242000C0CFF /* C_ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = EDF5AB581EFBB242000C0CFF /* C_ViewController.m */; };
+		EDF5AB5B1EFBB242000C0CFF /* C_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EDF5AB591EFBB242000C0CFF /* C_ViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +45,7 @@
 /* Begin PBXFileReference section */
 		06A45C861C319E506FCE69DA /* Pods_wxxPresent_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wxxPresent_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		383DFECA7F722F8522AC99E3 /* Pods-wxxPresent_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxxPresent_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wxxPresent_Example/Pods-wxxPresent_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4002DC11CC8AF60D698C1001 /* wxxPresent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = wxxPresent.podspec; path = ../wxxPresent.podspec; sourceTree = "<group>"; };
+		4002DC11CC8AF60D698C1001 /* wxxPresent.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = wxxPresent.podspec; path = ../wxxPresent.podspec; sourceTree = "<group>"; };
 		44F262E6967A3C201EC848FC /* Pods-wxxPresent_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxxPresent_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-wxxPresent_Tests/Pods-wxxPresent_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* wxxPresent_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wxxPresent_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,8 +71,17 @@
 		8EA9FAA2B9407BBE759ADAD3 /* Pods-wxxPresent_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxxPresent_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-wxxPresent_Tests/Pods-wxxPresent_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B13B3C80ED778EFE62799823 /* Pods_wxxPresent_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wxxPresent_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4B86CAC18972522877D7277 /* Pods-wxxPresent_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wxxPresent_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-wxxPresent_Example/Pods-wxxPresent_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C5D3E5A25F147AF479DC817D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		C61731723A32B07E0227EA09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C5D3E5A25F147AF479DC817D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		C61731723A32B07E0227EA09 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDF5AB4D1EFBB0B5000C0CFF /* A_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A_ViewController.h; sourceTree = "<group>"; };
+		EDF5AB4E1EFBB0B5000C0CFF /* A_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A_ViewController.m; sourceTree = "<group>"; };
+		EDF5AB4F1EFBB0B5000C0CFF /* A_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = A_ViewController.xib; sourceTree = "<group>"; };
+		EDF5AB501EFBB0B5000C0CFF /* B_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = B_ViewController.h; sourceTree = "<group>"; };
+		EDF5AB511EFBB0B5000C0CFF /* B_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = B_ViewController.m; sourceTree = "<group>"; };
+		EDF5AB521EFBB0B5000C0CFF /* B_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = B_ViewController.xib; sourceTree = "<group>"; };
+		EDF5AB571EFBB242000C0CFF /* C_ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = C_ViewController.h; sourceTree = "<group>"; };
+		EDF5AB581EFBB242000C0CFF /* C_ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = C_ViewController.m; sourceTree = "<group>"; };
+		EDF5AB591EFBB242000C0CFF /* C_ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = C_ViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,9 +149,18 @@
 			children = (
 				6003F59C195388D20070C39A /* wxxAppDelegate.h */,
 				6003F59D195388D20070C39A /* wxxAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
+				EDF5AB4D1EFBB0B5000C0CFF /* A_ViewController.h */,
+				EDF5AB4E1EFBB0B5000C0CFF /* A_ViewController.m */,
+				EDF5AB4F1EFBB0B5000C0CFF /* A_ViewController.xib */,
+				EDF5AB501EFBB0B5000C0CFF /* B_ViewController.h */,
+				EDF5AB511EFBB0B5000C0CFF /* B_ViewController.m */,
+				EDF5AB521EFBB0B5000C0CFF /* B_ViewController.xib */,
+				EDF5AB571EFBB242000C0CFF /* C_ViewController.h */,
+				EDF5AB581EFBB242000C0CFF /* C_ViewController.m */,
+				EDF5AB591EFBB242000C0CFF /* C_ViewController.xib */,
 				6003F5A5195388D20070C39A /* wxxViewController.h */,
 				6003F5A6195388D20070C39A /* wxxViewController.m */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -280,9 +304,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				EDF5AB5B1EFBB242000C0CFF /* C_ViewController.xib in Resources */,
+				EDF5AB541EFBB0B5000C0CFF /* A_ViewController.xib in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
+				EDF5AB561EFBB0B5000C0CFF /* B_ViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -394,7 +421,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDF5AB531EFBB0B5000C0CFF /* A_ViewController.m in Sources */,
 				6003F59E195388D20070C39A /* wxxAppDelegate.m in Sources */,
+				EDF5AB5A1EFBB242000C0CFF /* C_ViewController.m in Sources */,
+				EDF5AB551EFBB0B5000C0CFF /* B_ViewController.m in Sources */,
 				6003F5A7195388D20070C39A /* wxxViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);

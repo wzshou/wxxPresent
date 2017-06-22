@@ -7,12 +7,19 @@
 //
 
 #import "wxxViewController.h"
+#import "A_ViewController.h"
+#import "UIViewController+wxxPresent.h"
 
 @interface wxxViewController ()
 
 @end
 
 @implementation wxxViewController
+- (IBAction)click:(UIButton *)sender {
+    A_ViewController *a = [A_ViewController new];
+    [self wxxPrenstToVC:a animationStly:(wxxPresentAnimationStly_Flashing) completion:nil];
+    
+}
 
 - (void)viewDidLoad
 {

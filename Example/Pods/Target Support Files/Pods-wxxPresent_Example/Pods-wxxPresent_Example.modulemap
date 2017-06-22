@@ -1,0 +1,6 @@
+framework module Pods_wxxPresent_Example {
+  umbrella header "Pods-wxxPresent_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

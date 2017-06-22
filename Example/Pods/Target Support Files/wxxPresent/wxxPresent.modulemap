@@ -1,0 +1,6 @@
+framework module wxxPresent {
+  umbrella header "wxxPresent-umbrella.h"
+
+  export *
+  module * { export * }
+}
